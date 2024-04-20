@@ -1,0 +1,27 @@
+.message {
+    font-style: 'Cantarell';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+    padding: 45px;
+    color: #e09787;
+    background-color: #9cecd4;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        padding: 10px 30px;
+        border-radius: 15px;
+        font-size: 95px;
+        font-weight: 900;
+        /* border: 1px solid white; */
+    }
+
+    &__text {
+        font-size: 45px;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
