@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import TemperatureConverter from "./components/TemperatureConverter";
-import TodoList from "./components/ToDoList";
+import TemperatureConverter from "../../homework4/components/TemperatureConverter";
+import TodoList from "../../homework4/components/ToDoList";
 
 function App() {
   return (
