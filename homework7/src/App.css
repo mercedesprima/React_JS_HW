@@ -1,0 +1,15 @@
+h1 {
+  color: #61dafb;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
