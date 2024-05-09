@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+
+.product_form form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.product_form input {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.product_form button {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.product {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
